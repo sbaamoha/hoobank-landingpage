@@ -10,7 +10,7 @@ const CardDeal = () => {
             <p className="text-dimWhite py-10 max-w-[500px]">
             Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
             </p>
-            <button className=" bg-blue-gradient text-black rounded px-10 py-2">Get Started</button>
+            <button className=" bg-blue-gradient text-black rounded px-10 py-2 hover:opacity-80">Get Started</button>
         </div>
         <div className="flex-1">
             <Image src={card} alt="photo" layout='responsive'/>
