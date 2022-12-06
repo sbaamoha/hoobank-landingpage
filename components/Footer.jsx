@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { logo } from '../assets'
 const Footer = () => {
   return (
-    <div className='md:py-16 py-5 footer-bg '>
+    <div className='md:py-16 py-5 bg-transparent '>
         <div className="flex flex-wrap pb-16">
             <div className='flex-1 mb-10 '>
                 <Link href="/" >
