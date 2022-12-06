@@ -22,7 +22,7 @@ const Navbar = () => {
               
               )} 
               key={item.id} 
-              className={`${isActive === item.name ? `text-white` : `text-dimWhite`}`} 
+              className={`${isActive === item.name ? `text-white` : `text-dimWhite`}hover:text-dimWhite`} 
               >
                <Link href="/"  >
                 <h3>{item.name}</h3>
