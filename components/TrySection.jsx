@@ -10,7 +10,7 @@ const TrySection = () => {
                 </p>
             </div>
             <div>
-            <button className=" bg-blue-gradient text-black rounded px-10 py-2 ml-auto">Get Started</button>
+            <button className="bg-blue-gradient text-black rounded px-10 py-2 ml-auto hover:opacity-80">Get Started</button>
 
             </div>
         </div>  
