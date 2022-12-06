@@ -23,7 +23,7 @@ const Hero = () => {
                 We examine annual percentage rates, annual fees.
             </p>
             <button className="text-white md:absolute top-[150px] left-[480px] w-[140px] h-[140px] text-xl h-auto font-poppins rounded-full bg-blue-gradient p-1 cursor-pointer mt-10 md:mt-0">
-                 <h1 className="p-8 w-[100%] h-[100%] bg-primary rounded-full ">Get <Image src={arrowUp} alt="arrowup" /> <br/>
+                 <h1 className="p-8 w-[100%] h-[100%] bg-primary rounded-full hover:opacity-85">Get <Image src={arrowUp} alt="arrowup" /> <br/>
                  Started</h1>
             </button>
         </div>
