@@ -3,7 +3,7 @@ import { discount, arrowUp, robot } from "../assets"
 
 const Hero = () => {
   return (
-    <section className='py-10 flex flex-col sm:flex-row gap-5 md:relative'>
+    <section className='py-6 lg:py-10 flex flex-col sm:flex-row gap-5 md:relative'>
         <div className="py-20">
             <h3 className="hidden bg-discount-gradient w-[380px] rounded-lg md:flex items-center md:gap-2 font-poppins cursor-pointer">
                 <Image src={discount} alt="discount" className="w-[32px]"/>
