@@ -1,18 +1,22 @@
 export const navbar = [
     {
-        name: "Home",
+        name: "home",
+        slug: "home",
         id: "1"
     },
     {
-        name: "About Us",
+        name: "about us",
+        slug: "about",
         id: "2"
     },
     {
-        name: "Features",
+        name: "features",
+        slug: "features",
         id: "3"
     },
     {
-        name: "Solution",
+        name: "solution",
+        slug: "solution",
         id: "4"
     },
 ]

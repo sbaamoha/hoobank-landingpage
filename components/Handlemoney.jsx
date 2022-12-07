@@ -2,13 +2,13 @@ import { star, shield, send} from "../assets"
 
 const Handlemoney = () => {
   return (
-    <section className="flex flex-col md:flex-row  md:py-28 justify-between gap-10 text-center md:text-start">
+    <section id="features" className="flex flex-col md:flex-row  md:py-28 justify-between gap-10 text-center md:text-start">
         <div className="flex-1 gap-5">
             <h3 className="text-5xl font-poppins">You do the business, we’ll handle the money.</h3>
             <p className="text-dimWhite py-10 max-w-[500px]">
             With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.
             </p>
-            <button className=" bg-blue-gradient text-black rounded px-10 py-2 hover:opacity-85">Get Started</button>
+            <button className="bg-blue-gradient text-black rounded px-10 py-2 hover:text-dimWhite">Get Started</button>
         </div>
         <div className="flex-1 flex flex-col">
             <div className="flex gap-8 items-center p-8 pt-0">

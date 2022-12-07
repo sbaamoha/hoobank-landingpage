@@ -5,7 +5,7 @@ import Card from './Card'
 
 const Testimonials = () => {
   return (
-    <section>
+    <section id='about'>
         <div className='flex flex-col text-center md:flex-row md:text-start md:gap-10 gap-5 items-center leading-loose py-10'>
             <h2 className='md:text-6xl font-poppins font-bold md:flex-1 md:leading-loose'>What people are saying about us</h2>
             <p className='text-dimWhite max-w-[400px]'>Everything you need to accept card payments and grow your business anywhere on the planet.</p>

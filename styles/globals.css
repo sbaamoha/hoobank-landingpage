@@ -4,6 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
+.active-link{
+  @apply text-white pb-2 border-b
+}
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -18,9 +27,6 @@
 }
 .footerp p{
   cursor: pointer;
-}
-* {
-  scroll-behavior: smooth;
 }
 
 .text-gradient {

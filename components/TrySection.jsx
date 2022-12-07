@@ -1,7 +1,7 @@
 
 const TrySection = () => {
   return (
-    <section className="py-16">
+    <section id="solution" className="py-16" >
         <div className="bg-black-gradient-2 rounded-3xl px-10 py-12 flex justify-between items-center">
             <div> 
                 <h3 className="text-4xl font-poppins">Let’s try our service now!</h3>

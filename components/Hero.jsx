@@ -3,8 +3,8 @@ import { discount, arrowUp, robot } from "../assets"
 
 const Hero = () => {
   return (
-    <section className='py-6 lg:py-10 flex flex-col sm:flex-row gap-5 md:relative'>
-        <div className="py-20">
+    <section id="home" className='lg:py-10 flex flex-col sm:flex-row gap-5 md:relative'>
+        <div className="">
             <h3 className="hidden bg-discount-gradient w-[380px] rounded-lg md:flex items-center md:gap-2 font-poppins cursor-pointer">
                 <Image src={discount} alt="discount" className="w-[32px]"/>
                 <span className="text-white">20%</span>
@@ -22,7 +22,7 @@ const Hero = () => {
                 Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
                 We examine annual percentage rates, annual fees.
             </p>
-            <button className="text-white md:absolute top-[150px] left-[480px] w-[140px] h-[140px] text-xl h-auto font-poppins rounded-full bg-blue-gradient p-1 cursor-pointer mt-10 md:mt-0">
+            <button className="text-white md:absolute top-[150px] left-[480px] lg:w-[140px] text-xl h-auto font-poppins rounded-full bg-blue-gradient p-1 cursor-pointer mt-10 md:mt-0 hover:opacity-60 hover:text-dimWhite">
                  <h1 className="p-8 w-[100%] h-[100%] bg-primary rounded-full hover:opacity-85">Get <Image src={arrowUp} alt="arrowup" /> <br/>
                  Started</h1>
             </button>
